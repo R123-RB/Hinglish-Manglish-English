@@ -175,7 +175,8 @@ class HinglishTrainer:
         if isinstance(preds, tuple):
             preds = preds[0]
 
-        # Decode predictions
+        # Replace -100 in preds then decode
+        preds = np.where(preds != -100, preds, self.tokenizer.pad_token_id)
         decoded_preds = self.tokenizer.batch_decode(
             preds, skip_special_tokens=True, clean_up_tokenization_spaces=True
         )
