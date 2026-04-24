@@ -1,0 +1,53 @@
+# ============================================================
+#  Hinglish + Manglish → English: Central Configuration
+# ============================================================
+
+model:
+  base: "google/mt5-small"        # Switch to "google/mt5-base" on Colab GPU
+  max_input_length: 128
+  max_target_length: 128
+  dropout: 0.1
+
+training:
+  epochs: 8
+  batch_size: 16                  # Reduce to 8 on CPU; increase to 32 on Colab
+  learning_rate: 5.0e-4
+  weight_decay: 0.01
+  warmup_steps: 200
+  fp16: false                     # Set true on Colab GPU (T4/A100)
+  gradient_checkpointing: true
+  save_steps: 500
+  eval_steps: 250
+  logging_steps: 50
+  output_dir: "outputs/model"
+  seed: 42
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  dict_dir: "data/dictionaries"
+  train_ratio: 0.80
+  val_ratio:   0.10
+  test_ratio:  0.10
+  target_samples: 900             # Synthetic dataset target size
+
+augmentation:
+  paraphrase_variants: 3          # Paraphrase copies per sentence
+  noise_prob: 0.15                # Probability of injecting a typo per token
+  enable_back_translation: false  # Requires LLM; off by default
+
+instruction_prefix: "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n"
+
+paths:
+  slang_dict:       "data/dictionaries/slang_dict.json"
+  normalization_map: "data/dictionaries/normalization_map.json"
+  train_file:       "data/processed/train.json"
+  val_file:         "data/processed/val.json"
+  test_file:        "data/processed/test.json"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+ui:
+  page_title: "Hinglish + Manglish → English Translator"

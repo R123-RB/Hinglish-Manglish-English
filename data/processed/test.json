@@ -1,0 +1,493 @@
+[
+  {
+    "input": "Poli result aayit pooyi machane!",
+    "literal": "Awesome result came dude!",
+    "natural": "Really, got an amazing result, dude!",
+    "emotion": "excited",
+    "category": "social_celebrate",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Poli result aayit pooyi machane!\"",
+    "instruction_target": "Really, got an amazing result, dude!"
+  },
+  {
+    "input": "Nee innu varumo?",
+    "literal": "Are you coming today?",
+    "natural": "Are you upcoming today?",
+    "emotion": "curious",
+    "category": "manglish_question",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Nee innu varumo?\"",
+    "instruction_target": "Are you upcoming today?"
+  },
+  {
+    "input": "Enthu cheyyanam ennum ariyilla",
+    "literal": "What to do also don't know",
+    "natural": "I've no idea what to do.",
+    "emotion": "confused",
+    "category": "manglish_emotion",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Enthu cheyyanam ennum ariyilla\"",
+    "instruction_target": "I've no idea what to do."
+  },
+  {
+    "input": "Project done aayit poyi yaar!",
+    "literal": "Project done went friend!",
+    "natural": "The project is through, man!",
+    "emotion": "relieved",
+    "category": "work_study",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Project done aayit poyi yaar!\"",
+    "instruction_target": "The project is through, man!"
+  },
+  {
+    "input": "Kahan hai tu abhi?",
+    "literal": "Where are you right now?",
+    "natural": "Really, where are you right now?",
+    "emotion": "curious",
+    "category": "hinglish_question",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Kahan hai tu abhi?\"",
+    "instruction_target": "Really, where are you right now?"
+  },
+  {
+    "input": "Bhai yeh toh next level hai",
+    "literal": "Brother this is next level",
+    "natural": "Bro, this is on another level.",
+    "emotion": "impressed",
+    "category": "reaction",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Bhai yeh toh next level hai\"",
+    "instruction_target": "Bro, this is on another level."
+  },
+  {
+    "input": "Full on bindaas life aanu avan",
+    "literal": "Full on carefree life is his",
+    "natural": "He lives his life altogether carefree.",
+    "emotion": "admiration",
+    "category": "slang_norm",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Full on bindaas life aanu avan\"",
+    "instruction_target": "He lives his life altogether carefree."
+  },
+  {
+    "input": "Set aayit poyi machane!",
+    "literal": "Set went dude",
+    "natural": "Honestly, it all worked out perfectly, dude!",
+    "emotion": "satisfied",
+    "category": "manglish_slang",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Set aayit poyi machane!\"",
+    "instruction_target": "Honestly, it all worked out perfectly, dude!"
+  },
+  {
+    "input": "Study cheyyaan thonnunilla machane",
+    "literal": "Study to do not feeling dude",
+    "natural": "I don't feel like studying at all, dude.",
+    "emotion": "low_energy",
+    "category": "work_study",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Study cheyyaan thonnunilla machane\"",
+    "instruction_target": "I don't feel like studying at all, dude."
+  },
+  {
+    "input": "Poli result aayit poyi machane!",
+    "literal": "Awesome result came dude!",
+    "natural": "Got an amazing result, dude!",
+    "emotion": "excited",
+    "category": "social_celebrate",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Poli result aayit poyi machane!\"",
+    "instruction_target": "Got an amazing result, dude!"
+  },
+  {
+    "input": "Enikku vayya da, full tired aanu",
+    "literal": "I am not able brother, full tired is",
+    "natural": "I'm completely drained, dude.",
+    "emotion": "fatigue",
+    "category": "manglish_emotion",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Enikku vayya da, full tired aanu\"",
+    "instruction_target": "I'm completely drained, dude."
+  },
+  {
+    "input": "Studdy cheyyaan thonnunilla machane",
+    "literal": "Study to do not feeling dude",
+    "natural": "I do not feel like studying at all, dude.",
+    "emotion": "low_energy",
+    "category": "work_study",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Studdy cheyyaan thonnunilla machane\"",
+    "instruction_target": "I do not feel like studying at all, dude."
+  },
+  {
+    "input": "Yaar aaj nahi ho payega",
+    "literal": "Friend today not will happen",
+    "natural": "Man, it is not happening today.",
+    "emotion": "apologetic",
+    "category": "hinglish_plans",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Yaar aaj nahi ho payega\"",
+    "instruction_target": "Man, it is not happening today."
+  },
+  {
+    "input": "Nee tomorrow varumo?",
+    "literal": "You tomorrow coming?",
+    "natural": "Are you upcoming tomorrow?",
+    "emotion": "curious",
+    "category": "codemix_grammar",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Nee tomorrow varumo?\"",
+    "instruction_target": "Are you upcoming tomorrow?"
+  },
+  {
+    "input": "Pakka aayega kal?",
+    "literal": "Definitely coming tomorrow?",
+    "natural": "You're definitely approaching tomorrow, right?",
+    "emotion": "curious",
+    "category": "hinglish_social",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Pakka aayega kal?\"",
+    "instruction_target": "You're definitely approaching tomorrow, right?"
+  },
+  {
+    "input": "Enthu parayaananu?",
+    "literal": "What is to say?",
+    "natural": "What can I even say?",
+    "emotion": "resigned",
+    "category": "manglish_question",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Enthu parayaananu?\"",
+    "instruction_target": "What can I even say?"
+  },
+  {
+    "input": "Main bahut parshan hoon bhai",
+    "literal": "I very troubled am brother",
+    "natural": "I'm truly stressed out, bro.",
+    "emotion": "stress",
+    "category": "hinglish_emotion",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Main bahut parshan hoon bhai\"",
+    "instruction_target": "I'm truly stressed out, bro."
+  },
+  {
+    "input": "Bai yeh toh next level hai",
+    "literal": "Brother this is next level",
+    "natural": "You know, bro, this is on another level.",
+    "emotion": "impressed",
+    "category": "reaction",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Bai yeh toh next level hai\"",
+    "instruction_target": "You know, bro, this is on another level."
+  },
+  {
+    "input": "Full on bindaas life aanu avan",
+    "literal": "Full on carefree life is his",
+    "natural": "He lives his life entirely carefree.",
+    "emotion": "admiration",
+    "category": "slang_norm",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Full on bindaas life aanu avan\"",
+    "instruction_target": "He lives his life entirely carefree."
+  },
+  {
+    "input": "Call cheyyam njan abhi",
+    "literal": "Call will I now",
+    "natural": "I'll call you right now.",
+    "emotion": "helpful",
+    "category": "codemix_grammar",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Call cheyyam njan abhi\"",
+    "instruction_target": "I'll call you right now."
+  },
+  {
+    "input": "Aayi kollu, next time pakka",
+    "literal": "It came be, next time definitely",
+    "natural": "Really, it's okay, you'll get it next time for sure.",
+    "emotion": "encouraging",
+    "category": "social_support",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Aayi kollu, next time pakka\"",
+    "instruction_target": "Really, it's okay, you'll get it next time for sure."
+  },
+  {
+    "input": "Enthaa njn cheyyendi?",
+    "literal": "What am I to do?",
+    "natural": "Honestly, what am I supposed to do?",
+    "emotion": "confused",
+    "category": "manglish_question",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Enthaa njn cheyyendi?\"",
+    "instruction_target": "Honestly, what am I supposed to do?"
+  },
+  {
+    "input": "Aiyo bhai, deadline mmiss ayi",
+    "literal": "Oh no brother, deadline missed",
+    "natural": "You know, oh no, bro, I missed the deadline.",
+    "emotion": "panic",
+    "category": "mixed",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Aiyo bhai, deadline mmiss ayi\"",
+    "instruction_target": "You know, oh no, bro, I missed the deadline."
+  },
+  {
+    "input": "Full tiredness aanu da, sleep cheyyum",
+    "literal": "Full tiredness is brother, will sleep",
+    "natural": "I'm dead stock, I'm going to sleep.",
+    "emotion": "fatigue",
+    "category": "manglish_emotion",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Full tiredness aanu da, sleep cheyyum\"",
+    "instruction_target": "I'm dead stock, I'm going to sleep."
+  },
+  {
+    "input": "She aval full happy aanu",
+    "literal": "She she full happy is",
+    "natural": "She seems really happy.",
+    "emotion": "observation",
+    "category": "codemix_grammar",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"She aval full happy aanu\"",
+    "instruction_target": "She seems really happy."
+  },
+  {
+    "input": "MMood illa yaar, maduthu",
+    "literal": "Mood not friend, fed up",
+    "natural": "Not in the mood at all, man, I am fed up.",
+    "emotion": "frustration",
+    "category": "mixed",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"MMood illa yaar, maduthu\"",
+    "instruction_target": "Not in the mood at all, man, I am fed up."
+  },
+  {
+    "input": "Evide aanu plan?",
+    "literal": "Where is the plan?",
+    "natural": "You know, so what's the plan?",
+    "emotion": "curious",
+    "category": "manglish_question",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Evide aanu plan?\"",
+    "instruction_target": "You know, so what's the plan?"
+  },
+  {
+    "input": "Nee inu varumo?",
+    "literal": "Are you coming today?",
+    "natural": "You know, are you coming today?",
+    "emotion": "curious",
+    "category": "manglish_question",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Nee inu varumo?\"",
+    "instruction_target": "You know, are you coming today?"
+  },
+  {
+    "input": "Avan scene aanu",
+    "literal": "He is the scene",
+    "natural": "He's being dramatic.",
+    "emotion": "observation",
+    "category": "manglish_slang",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Avan scene aanu\"",
+    "instruction_target": "He's being dramatic."
+  },
+  {
+    "input": "Full tiredness aanu da, sleep cheyyum",
+    "literal": "Full tiredness is brother, will sleep",
+    "natural": "I am dead tired, I'm going to sleep.",
+    "emotion": "fatigue",
+    "category": "manglish_emotion",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Full tiredness aanu da, sleep cheyyum\"",
+    "instruction_target": "I am dead tired, I'm going to sleep."
+  },
+  {
+    "input": "Enikku moonnum kashtam aanu",
+    "literal": "Three difficulty is for me",
+    "natural": "I'm really struggling right now.",
+    "emotion": "stress",
+    "category": "manglish_emotion",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Enikku moonnum kashtam aanu\"",
+    "instruction_target": "I'm really struggling right now."
+  },
+  {
+    "input": "Yaar kuch samajh nahi aa raha",
+    "literal": "Friend nothing understand not coming",
+    "natural": "Man, I can't figure anything out.",
+    "emotion": "confused",
+    "category": "hinglish_emotion",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Yaar kuch samajh nahi aa raha\"",
+    "instruction_target": "Man, I can't figure anything out."
+  },
+  {
+    "input": "Nee tomorrow varumo?",
+    "literal": "You tomorrow coming?",
+    "natural": "Are you forthcoming tomorrow?",
+    "emotion": "curious",
+    "category": "codemix_grammar",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Nee tomorrow varumo?\"",
+    "instruction_target": "Are you forthcoming tomorrow?"
+  },
+  {
+    "input": "Avan scene aanu",
+    "literal": "He is the scene",
+    "natural": "He's creating drama.",
+    "emotion": "observation",
+    "category": "manglish_slang",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Avan scene aanu\"",
+    "instruction_target": "He's creating drama."
+  },
+  {
+    "input": "Yaar njan aaj trry ccheyyam, but pakka aagilla",
+    "literal": "Friend I today will try, but definitely won't happen",
+    "natural": "Man, I will try today, but I can't promise anything.",
+    "emotion": "uncertain",
+    "category": "mixed",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Yaar njan aaj trry ccheyyam, but pakka aagilla\"",
+    "instruction_target": "Man, I will try today, but I can't promise anything."
+  },
+  {
+    "input": "Bhai LOL, too funny",
+    "literal": "Brother laughing out loud, too funny",
+    "natural": "Bro, that's hilarious!",
+    "emotion": "amused",
+    "category": "reaction",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Bhai LOL, too funny\"",
+    "instruction_target": "Bro, that's hilarious!"
+  },
+  {
+    "input": "Bindaas enjoy cheyyu bhai",
+    "literal": "Carefree enjoy brother",
+    "natural": "Really, just chill and enjoy, bro.",
+    "emotion": "relaxed",
+    "category": "slang_norm",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Bindaas enjoy cheyyu bhai\"",
+    "instruction_target": "Really, just chill and enjoy, bro."
+  },
+  {
+    "input": "Aval enthino scene undaakkunnu",
+    "literal": "She is making scene for something",
+    "natural": "She's stirring up drama over nothing.",
+    "emotion": "annoyed",
+    "category": "manglish_slang",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Aval enthino scene undaakkunnu\"",
+    "instruction_target": "She's stirring up drama over nothing."
+  },
+  {
+    "input": "Congrats bro fully deserve aayi!",
+    "literal": "Congrats bro, fully deserved!",
+    "natural": "Congrats, bro! You whole deserved it!",
+    "emotion": "celebratory",
+    "category": "social_celebrate",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Congrats bro fully deserve aayi!\"",
+    "instruction_target": "Congrats, bro! You whole deserved it!"
+  },
+  {
+    "input": "Adipoli aayit poyi bro",
+    "literal": "Fantastic went bro",
+    "natural": "You know, it went brilliantly, bro!",
+    "emotion": "excited",
+    "category": "manglish_slang",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Adipoli aayit poyi bro\"",
+    "instruction_target": "You know, it went brilliantly, bro!"
+  },
+  {
+    "input": "Enthu parayaananu?",
+    "literal": "What is to say?",
+    "natural": "Really, what can I even say?",
+    "emotion": "resigned",
+    "category": "manglish_question",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Enthu parayaananu?\"",
+    "instruction_target": "Really, what can I even say?"
+  },
+  {
+    "input": "Chetta parayum, njan kekkam",
+    "literal": "Elder brother will say, I will listen",
+    "natural": "Please go ahead, I am listening.",
+    "emotion": "respectful",
+    "category": "manglish_social",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Chetta parayum, njan kekkam\"",
+    "instruction_target": "Please go ahead, I am listening."
+  },
+  {
+    "input": "Yaar aaj nahi ho payega",
+    "literal": "Friend today not will happen",
+    "natural": "Man, it's not happening today.",
+    "emotion": "apologetic",
+    "category": "hinglish_plans",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Yaar aaj nahi ho payega\"",
+    "instruction_target": "Man, it's not happening today."
+  },
+  {
+    "input": "Congrats bro, fullly deserve aaayi!",
+    "literal": "Congrats bro, fully deserved!",
+    "natural": "Congrats, bro! You completely deserved it!",
+    "emotion": "celebratory",
+    "category": "social_celebrate",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Congrats bro, fullly deserve aaayi!\"",
+    "instruction_target": "Congrats, bro! You completely deserved it!"
+  },
+  {
+    "input": "Full tiredness aanu da, sleep cheyyum",
+    "literal": "Full tiredness is brother, will sleep",
+    "natural": "I'm dead tired, I'm going to sleep.",
+    "emotion": "fatigue",
+    "category": "manglish_emotion",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Full tiredness aanu da, sleep cheyyum\"",
+    "instruction_target": "I'm dead tired, I'm going to sleep."
+  },
+  {
+    "input": "Scene kaanakan poyaloo",
+    "literal": "Scene went to see",
+    "natural": "It turned into rather a scene.",
+    "emotion": "surprise",
+    "category": "manglish_slang",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Scene kaanakan poyaloo\"",
+    "instruction_target": "It turned into rather a scene."
+  },
+  {
+    "input": "Meeting start cheyyan ready aao?",
+    "literal": "Meeting to start ready is?",
+    "natural": "You know, are we ready to start the meeting?",
+    "emotion": "curious",
+    "category": "codemix_grammar",
+    "augmented": true,
+    "aug_strategy": "paraphrase",
+    "instruction_input": "Translate the following Hinglish/Manglish sentence into natural English preserving cultural meaning:\n\"Meeting start cheyyan ready aao?\"",
+    "instruction_target": "You know, are we ready to start the meeting?"
+  }
+]
